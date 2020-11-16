@@ -1,0 +1,80 @@
+h2 {
+  width: 100%;
+  margin: 3% 0 1%;
+  text-align: center;
+}
+.card--container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+}
+.card {
+  height: 100px;
+  display: flex;
+  flex: 0 1 30%;
+  flex-flow: column;
+  padding: 2%;
+  background-color: var(--white);
+  border: none;
+}
+
+.card:not(:last-child) {
+  margin-right: 2%;
+}
+
+.card label {
+  font-size: 0.875em;
+  font-weight: bold;
+}
+
+.card span {
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 2%;
+  font-size: 0.875em;
+  font-weight: bold;
+}
+
+.inss {
+  color: var(--inss);
+}
+
+.irpf {
+  color: var(--irpf);
+}
+
+.net {
+  color: var(--salary);
+}
+/* table screens */
+@media only screen and (max-width: 768px) {
+  .card--container {
+    flex-wrap: wrap;
+  }
+  .card {
+    height: auto;
+    flex: 0 1 49%;
+    margin-bottom: 1%;
+  }
+  .card:not(:last-child) {
+    margin-right: 0;
+  }
+  .card:last-child {
+    flex: 0 1 100%;
+  }
+  .card span {
+    padding: 0;
+    margin-top: 1%;
+  }
+}
+
+/* mobile screens */
+@media only screen and (max-width: 480px) {
+  .card {
+    
+    flex: 0 1 100%;
+  }
+}

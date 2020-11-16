@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2%;
+}
+
+.total {
+  color: var(--green);
+  font-weight: bold;
+}
+
+.income {
+  color: var(--green);
+}
+
+.percentage {
+  color: var(--blue);
+  font-style: italic;
+}

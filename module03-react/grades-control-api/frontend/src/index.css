@@ -1,0 +1,27 @@
+/* ---------- RESET ---------- */
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --black: #000000;
+  --blue: #3498db;
+  --green: #2ecc71;
+  --gray: #2b2b2b;
+  --lg-gray: #dcdde1;
+  --red: #eb2f06;
+  --white: #ffffff;
+  --off-white: #f5f6fa;
+  --box-shadow:  0px 2px 3px 1px rgba(50, 50, 50, 0.50);
+}
+/* ---------- GLOBAL | ALPHABETIC ORDER ---------- */
+body {
+  padding: 2%;
+  background-color: var(--off-white);
+  font-size: 0.9375em;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 0.875em;
+  }
+}

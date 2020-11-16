@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2%;
+  border-bottom: 1px solid var(--white);
+}
+.container h1 {
+  width: 100%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+input[type="number"] {
+  width: 80%;
+  padding: 10px;
+  margin-left: 2%;
+  border: none;
+  outline:none;
+}

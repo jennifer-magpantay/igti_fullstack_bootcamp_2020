@@ -1,0 +1,33 @@
+.btn {
+  width: 100px;
+  padding: 12px 18px;
+  margin-right: 1%;
+  background-color: var(--gray);
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 768px) {
+  .btn {
+    width: 80px;
+    margin-bottom: 2%;
+  }
+}
+
+.btn--add:hover {
+  background-color: var(--blue);
+  transition: 500ms;
+}
+
+.btn--edit:hover {
+  background-color: var(--green);
+  transition: 500ms;
+}
+
+.btn--delete:hover {
+  background-color: var(--red);
+  transition: 500ms;
+}
+

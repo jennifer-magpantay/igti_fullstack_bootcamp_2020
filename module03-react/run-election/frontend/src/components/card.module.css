@@ -1,0 +1,32 @@
+.card {
+  flex: 0 1 30%;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  margin-bottom: 1%;
+  background-color: var(--white);
+  border: none;
+}
+
+.card:not(:nth-child(3)) {
+  margin-right: 2%;
+}
+
+.card:not(:last-child) {
+  margin-right: 2%;
+}
+
+/* table screens */
+@media only screen and (max-width: 768px) {
+  .card {
+    flex: 0 1 48%;
+  }
+}
+
+/* mobile screens */
+@media only screen and (max-width: 480px) {
+  .card {
+    flex: 0 1 100%;
+  }
+}

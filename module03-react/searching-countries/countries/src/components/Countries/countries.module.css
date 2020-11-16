@@ -1,0 +1,77 @@
+/* ---------- HEADER ---------- */
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  padding: 2%;
+  border-bottom: 1px solid var(--white);
+}
+
+.header__title--app {
+  margin: 2% 0;
+  color: var(--gray);
+  font-size: 3em;
+  text-align: center;
+}
+@media only screen and (max-width: 900px) {
+  .header__title--app {
+    font-size: 1.5em;
+  }
+}
+
+form {
+  width: 100%;
+  padding: 1% 0;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  margin-left: 2%;
+  border: none;
+}
+@media only screen and (max-width: 900px) {
+  input[type="text"] {
+    width: 100%;
+    margin: 2% 0 0;
+  }
+}
+
+.header__span {
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+/* ---------- COUNTRY ---------- */
+.country__container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding: 1%;
+  margin-bottom: 1%;
+  background-color: var(--white);
+}
+
+.country__title--results {
+  margin: 0 0 2%;
+  font-size: 2em;
+  text-align: center;
+}
+@media only screen and (max-width: 900px) {
+  .country__title--results {
+    font-size: 1.125em;
+  }
+}
+
+.country__span {
+  padding: 0;
+  line-height: normal;
+}
+
+.country--flag {
+  width: 25px;
+  height: 25px;
+  margin-right: 1%;
+  border-radius: 50%;
+}

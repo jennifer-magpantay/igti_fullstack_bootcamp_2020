@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+  background-color: var(--lg-gray);
+}
+
+.card__container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aside__container {
+  width: 50%;
+  height: auto;
+}
+
+h4 {
+  margin-bottom: 1%;
+}
+
+/* tablet screens */
+@media only screen and (max-width: 768px) {
+  .aside__container {
+    font-size: smaller;
+  }
+}
