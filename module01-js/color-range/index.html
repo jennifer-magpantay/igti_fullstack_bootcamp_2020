@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- add name & description of the page -->
+    <meta name="author" content="Jennifer Magpantay" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="description" content="FullStack BootCamp - Practical work" />
+    <!-- add reset.css before any other style file-->
+    <link rel="stylesheet" href="./style/reset.css" />
+    <!-- add index.css -->
+    <link rel="stylesheet" href="./style/index.css" />
+    <!-- add google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>RGB Range Color Changer</title>
+  </head>
+  <body>
+    <!-- div root -->
+    <div id="root" class="root">
+          
+      <div class="container">   
+        <h1>color range changer</h1>      
+        <form>
+        <div class="red">
+          <!-- input range -->
+          <label for="red">[R]ed</label>
+          <!-- add onput event: Triggers when an element gets user input -->
+          <input
+            type="range"
+            id="range--red"
+            name="range--red"
+            min="0"
+            max="255"
+            value="0"
+            oninput="getRange()"
+          />
+          <!-- input result -->
+          <!-- <input type="number" id="text--red"  value="0" disabled /> -->
+          <div id="text--red" class="text--red"></div>         
+        </div>
+        <div class="green">
+          <label for="green">[G]reen</label>
+          <input
+            type="range"
+            id="range--green"
+            name="range--green"
+            min="0"
+            max="255"
+            value="0"
+            oninput="getRange()"
+          />
+          <div id="text--green" class="text--green"></div>
+        </div>
+        <div class="blue">
+          <label for="green">[B]lue</label>
+          <input
+            type="range"
+            id="range--blue"
+            name="range--blue"
+            min="0"
+            max="255"
+            value="0"
+            oninput="getRange()"
+          />
+          <div id="text--blue" class="text--blue"></div>
+        </div>
+      </div>
+    </form>
+    </div>
+    <!-- add scripts -->
+    <script src="js/getRange.js"></script>
+  </body>
+</html>

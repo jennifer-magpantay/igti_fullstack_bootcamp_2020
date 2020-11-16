@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- add name & description of the page -->
+    <meta name="author" content="Jennifer Magpantay" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="description" content="FullStack BootCamp - Practical work" />
+    <!-- add reset.css before any other style file-->
+    <link rel="stylesheet" href="./style/reset.css" />
+    <!-- add index.css -->
+    <link rel="stylesheet" href="./style/index.css" />
+    <!-- add google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+      />
+    <title>Challenge - Searching User System</title>
+  </head>
+  <body>
+    <div class="loader">
+      <!-- insert gif loading -->     
+    </div>
+        <div class="container">
+      <h1>Searching User System</h1>
+      <form>
+        <label for="inputName">NAME</label>
+        <input type="text" id="inputName" />
+        <button id="buttonSearch">SEARCH</button>
+        <button id="buttonClear" >CLEAR</button>
+      </form>
+
+      <section>
+        <div class="aside__left">
+          <header><h3>
+              <span id="headerResults"></span>
+              &nbsp;RESULTS FOUND
+            </h3>
+          </header>
+          <!-- results -->
+          <div id="results"></div>
+        </div>
+
+        <div class="aside__right">
+          <header><h3>
+              STATISTICS
+            </h3>
+          </header>
+          <h4>Female: <span id="countFemale"></span></h4>
+          <h4>Male: <span id="countMale"></span></h4>
+          <h4>Sum of all ages: <span id="sumAges"></span></h4>
+          <h4>Average age: <span id="averageAge"></span></h4>
+          <!-- results -->
+          <div id="statistics"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- add scripts -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

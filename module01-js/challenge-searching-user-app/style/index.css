@@ -1,0 +1,157 @@
+/* ---------- RESET ---------- */
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --blue: #40739e;
+  --dk-gray: #2c3a47;
+  --lg-gray: #ecf0f1;
+  /* --colorx: #xxxxxx; */
+  --box-shadow: 0px 6px 13px -1px rgba(0, 0, 0, 0.33);
+}
+
+/* 
+https://www.cssmatic.com/box-shadow
+	box-shadow: 1px 1px 6px -1px var(--box-shadow);
+	box-shadow: 0px 6px 13px -1px rgba(0,0,0,0.33);
+	-webkit-box-shadow: 0px 6px 13px -1px rgba(0,0,0,0.33);
+  -moz-box-shadow: 0px 6px 13px -1px rgba(0,0,0,0.33);
+*/
+
+/* ---------- GLOBAL | ALPHABETIC ORDER ---------- */
+body {
+  background-color: var(--lg-gray);
+}
+
+button {
+  width: 120px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  }
+
+
+form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1% 2%;
+  margin-bottom: 2%;
+  background-color: var(--blue);
+}
+
+h1 {
+  margin: 2% 0;
+  font-family: "Varela Round", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--dk-gray);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h4 {
+  margin: 2% 0;
+}
+header {
+  display: flex;
+}
+
+label {
+  color: var(--white);
+  font-weight: bold;
+}
+
+img {
+  border-radius: 50%;
+  margin-right: 1%;
+}
+
+input[type="text"] {
+  width: 75%;
+  padding: 10px;
+  margin: 0 1%;
+  border: none;
+}
+/* ---------- HEADER ---------- */
+
+/* ---------- NAV ---------- */
+
+/* ---------- MAIN ---------- */
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* ---------- ASIDE ---------- */
+section {
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  background-color: var(--white);
+}
+
+header {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--blue);
+  color: var(--white);
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.aside__left,
+.aside__right {
+  width: 50%;
+  height: 60vh;
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid var(--lg-gray);
+  overflow: auto;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  padding: 1% 0;
+  border-bottom: 1px solid var(--lg-gray);
+}
+/* ---------- FOOTER ---------- */
+
+/* LOADER */
+/* .loader {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader > img {
+  width: 100px;
+}
+
+.loader.hidden {
+  animation: fadeOut 1s;
+  animation-fill-mode: forwards;
+} */
+/* ---------- MEDIA QUERIES ---------- */
+@media (max: 800px) {
+}

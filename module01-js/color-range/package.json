@@ -1,0 +1,24 @@
+{
+  "name": "color-range",
+  "version": "1.0.0",
+  "description": "Practical JavaScript work work using JavaScript to change the background color by rgb() CSS and input range",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennifer-magpantay/igti_fullstack_bootcamp.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Jennifer Magpantay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennifer-magpantay/igti_fullstack_bootcamp/issues"
+  },
+  "homepage": "https://github.com/jennifer-magpantay/igti_fullstack_bootcamp#readme"
+}
