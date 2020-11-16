@@ -1,0 +1,32 @@
+{
+  "name": "my-bank-api",
+  "version": "1.0.0",
+  "description": "API to control bank account users using Node.js and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennifer-magpantay/igti_fullstack_bootcamp.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "JSON",
+    "Postman",
+    "HTTP",
+    "requests"
+  ],
+  "author": "Jennifer Magpantay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennifer-magpantay/igti_fullstack_bootcamp/issues"
+  },
+  "homepage": "https://github.com/jennifer-magpantay/igti_fullstack_bootcamp#readme",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

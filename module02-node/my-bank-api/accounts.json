@@ -1,0 +1,50 @@
+{
+  "nextId": 13,
+  "accounts": [
+    {
+      "id": 2,
+      "name": "Andre Maia",
+      "balance": 650
+    },
+    {
+      "id": 4,
+      "name": "Antonio Carlos D. Maia",
+      "balance": 850
+    },
+    {
+      "id": 5,
+      "name": "Jennifer Ellen Magpantay Dainese Maia",
+      "balance": 1750
+    },
+    {
+      "id": 6,
+      "name": "Franz Joseff",
+      "balance": 650
+    },
+    {
+      "id": 7,
+      "name": "Estelita de Souza",
+      "balance": 950
+    },
+    {
+      "id": 8,
+      "name": "Lucinéia Giordano",
+      "balance": 550
+    },
+    {
+      "id": 9,
+      "name": "Renata Martinho",
+      "balance": 0
+    },
+    {
+      "id": 11,
+      "name": "Miguel Gonzalez",
+      "balance": 545
+    },
+    {
+      "id": 12,
+      "name": "Miguel Gonzalez Rodriguez",
+      "balance": 745
+    }
+  ]
+}
