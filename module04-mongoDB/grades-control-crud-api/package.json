@@ -1,0 +1,32 @@
+{
+  "name": "grades-control-crud-api",
+  "version": "1.0.0",
+  "description": "Based on a main project, create the routes for all API requests in the back-end and connect it to the fron-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jennifer-magpantay/igti_fullstack_bootcamp_2020"
+  },
+  "keywords": [
+    "CRUD",
+    "ReactJS",
+    "Node.js",
+    "MongoDB",
+    "API"
+  ],
+  "author": "Jennifer Magpantay",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.10.13",
+    "nodemon": "^2.0.6"
+  }
+}
