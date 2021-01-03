@@ -1,4 +1,4 @@
-# Challende 1 - Searching Application
+# Challenge 1 - Searching Application
 
 ## IGTI Fullstack BootCamp 2020
 
