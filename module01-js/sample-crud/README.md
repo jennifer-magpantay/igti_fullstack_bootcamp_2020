@@ -1,5 +1,11 @@
-#NAME LIST
+# NameList
 
-A application with CRUD function implemented to create, read, update and delete names from a list.
+## IGTI FullStack BootCamp 2020
 
-Overall, the functionalities are quite straigh forward. New names are added at the endi of the list. Each item of the lista has its own button to delete or edit the name. Once a name is edited, then the list is updated and reloaded.
+---
+
+Practical work:
+- Develop an application with CRUD functions implemented to create, read, update and delete names from a list;
+- New names are adde at the end of a list;
+- Each item of the list has its own button to delete or edit the name;
+- Once a name is edited, then the list is updated and reloaded.
