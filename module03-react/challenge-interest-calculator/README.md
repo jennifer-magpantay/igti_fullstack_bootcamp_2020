@@ -1,10 +1,10 @@
-# interest-calculator
+# Interest Calculator
 
-### Create a React application to perform calculation based on compound interest concepts
-
-**Practical work of the FullStack BootCamp held by IGTI**
+## IGTI Fullstack Bootcamp | Module 03: React
 
 As final pratical work of the React module, students were required to develop an application to perform valuation / depreciation calculation based on initial capital, monthly interest rate and number of monthly installments, using the concept of compound interest.
+
+### Goals
 
 The required tasks involved:
 
@@ -20,3 +20,26 @@ The required tasks involved:
    Implement the calculation by useEffecct;
    For the application, work around <App>, <Form>, <Installments> and <Installment> as components;
    Add style to differentiate investments(blue) from depreciation (red);
+
+   ### Status
+
+In development.
+
+### Tech Stack
+
+React.js, Node.js.
+
+### License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+    
+### Author
+
+Developed by Jennifer Magpantay 
+
+**Reach me out** 
+
+[![Linkedin Badge](https://img.shields.io/badge/-Jennifer-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jennifermagpantay/)](https://www.linkedin.com/in/jennifermagpantay/) [![Gmail Badge](https://img.shields.io/badge/-jennifer.magpantay@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jennifer.magpantay@gmail.com)](mailto:jennifer.magpantay@gmail.com)
+ 
+
+   
