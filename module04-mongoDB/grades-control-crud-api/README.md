@@ -1,8 +1,9 @@
 # Grades Control Application CRUD
 
-## IGTI Fullstack Bootcamp | Module 03: React
+## IGTI Fullstack Bootcamp | Module 04: MongoDB
 
 ### Goals
+
 
 ### Status
 
@@ -10,7 +11,7 @@ In development.
 
 ### Tech Stack
 
-React.js, Node.js.
+JavaScript, MongoDB, Node.js, Postman.
 
 ### License
 
