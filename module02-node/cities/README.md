@@ -1,10 +1,10 @@
-# cities
+# Cities
 
-### Create an Node.js application to manupulate a JSON file
-
-**Practical work of the FullStack BootCamp held by IGTI**
+## IGTI Fullstack Bootcamp | Module 02: Node
 
 As part of the Node.js module, students were required to build an Node application to manipulate JSON files and objects. Two files were given: Estados.json, which holds all states from Brazil, and Cidades.json, which holds all cities from Brazil.
+
+### Goals
 
 Tasks involved:
 
@@ -20,3 +20,23 @@ Tasks involved:
 Things to consider: 
 - Longest/shortest names according to the only number of characteres - do not consider spaces;
 - Cities with the same number of characters should be sorted by alphabetic order, and then, return the first index.
+
+### Status
+
+In development.
+
+### Tech Stack
+
+JavaScript, Node.js.
+
+### License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+    
+### Author
+
+Developed by Jennifer Magpantay 
+
+**Reach me out** 
+
+[![Linkedin Badge](https://img.shields.io/badge/-Jennifer-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jennifermagpantay/)](https://www.linkedin.com/in/jennifermagpantay/) [![Gmail Badge](https://img.shields.io/badge/-jennifer.magpantay@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jennifer.magpantay@gmail.com)](mailto:jennifer.magpantay@gmail.com)
